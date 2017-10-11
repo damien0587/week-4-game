@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 10px;
+}
+
+.jewelIconDiv {
+	margin-left: 290px;
+}
+
+#jewelIconList, li {
+	float: left;
+}
+
+li {
+	padding: 30px;
+	margin-top: 80px;
+}
+
+.jewelIcon {
+	width: 140px;
+	height: 140px;
+}

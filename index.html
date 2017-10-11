@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Engagement" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1>Crys-tery</h1>
+    <h2>A Guessing Game of Jewels and Numbers!</h2>
+    <br><br>
+    <div id="instructions">
+        <p>You will be given a random number to start the game.</p>
+        <br>
+        <p>Click a gem to add a specific hidden number to your total!</p>
+        <br>
+        <p>Try to match the given number without supassing it, or you'll lose it all!</p>
+        <br>
+        <p>Each time the game starts, the mystery value of each crystal will change. Good luck!</p>
+        <br>
+    </div>
+    <div class="jewelIconDiv">
+        <ul class="jewelIconList">
+            <li><img class="jewelIcon jird" src="assets/images/reddiamond.jpg"></a>
+            </li>
+            <li><img class="jewelIcon jimg" src="assets/images/musgravite.jpg"></a>
+            </li>
+            <li><img class="jewelIcon jiwd" src="assets/images/whitediamonda.jpg"></a>
+            </li>
+            <li><img class="jewelIcon jigd" src="assets/images/grandidierite.jpg"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="tracker">
+        <p id="randomNum">Random Number: </p>
+        <p id="total">Your Total: </p>
+        <p id="wins">Wins: </p>
+        <p id="losses">Losses: </p>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
